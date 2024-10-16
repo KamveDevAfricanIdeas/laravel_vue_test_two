@@ -7,7 +7,7 @@
         <!-- Styles -->
         @vite('resources/css/app.css')
     </head>
-    <body class="bg-[#8096b2]">
+    <body>
         <div id="navbar">
             <navbar/>
         </div>
@@ -27,7 +27,7 @@
         </div>
         <div class="content-style">
             <div>
-                <h1 class="main-header mb-10">Welcome to Testing</h1>
+                <h1 class="main-header mb-5">Welcome to Testing</h1>
                 <p class="text-info">This is the main content area.</p>
             </div>
             <?php echo "PHP Echo...";?>

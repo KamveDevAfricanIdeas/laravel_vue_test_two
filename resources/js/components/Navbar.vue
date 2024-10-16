@@ -2,8 +2,8 @@
     <nav class="navbar-style">
       <div class="container mx-auto flex justify-between items-center">
         <!-- Brand -->
-        <a href="#" class="text-white text-lg font-bold">
-          MyApp
+        <a href="#" class="text-white text-md font-bold">
+          Site Builder
         </a>
         <!-- Navigation Links -->
         <div>
@@ -11,6 +11,9 @@
           <a href="#" class="link-style">About</a>
           <a href="#" class="link-style">Contact</a>
         </div>
+        <a href="#" class="text-white text-md font-bold">
+          African Ideas
+        </a>
       </div>
     </nav>
   </template>

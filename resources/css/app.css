@@ -6,16 +6,16 @@
     @apply bg-[#245A95] p-4 w-full fixed top-0 left-0 z-50;
 }
 .content-style{
-    @apply p-5 w-full mx-auto mt-20
+    @apply p-5 w-full mx-auto mt-20;
 }
 .main-header{
-    @apply text-3xl font-bold;
+    @apply text-2xl font-bold;
 }
 .text-info{
     @apply text-2xl font-light;
 }
 .link-style{
-    @apply text-gray-300 hover:text-white px-3;
+    @apply text-gray-200 hover:text-white px-3;
 }
 /* 
     colors:
