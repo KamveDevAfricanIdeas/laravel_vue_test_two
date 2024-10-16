@@ -1,3 +1,49 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.navbar-style{
+    @apply bg-[#245A95] p-4 w-full fixed top-0 left-0 z-50;
+}
+.content-style{
+    @apply p-5 w-full mx-auto mt-20
+}
+.main-header{
+    @apply text-3xl font-bold;
+}
+.text-info{
+    @apply text-2xl font-light;
+}
+.link-style{
+    @apply text-gray-300 hover:text-white px-3;
+}
+/* 
+    colors:
+        .primary-colors
+        {
+            color: #245A95;
+            color: #DCE8F8;
+            color: #779fe2;
+            color: #a0beee;
+            color: #4074d5;
+            color: #e5ebf2;
+        }
+        .secondary-colors
+        {
+            color: #968151;
+            color: #394759;
+            color: #44536a;
+            color: #3f3f3f;
+            color: #8096b2;
+            color: #ffffff;
+        }
+        .tertiary-colors
+        {
+            color: #5494e0;
+            color: #5f6d94;
+            color: #949bc7;
+            color: #5c649a;
+            color: #b4b7c4;
+            color: #e5ebf2;
+        }
+*/

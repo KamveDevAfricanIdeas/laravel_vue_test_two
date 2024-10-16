@@ -7,14 +7,56 @@
         <!-- Styles -->
         @vite('resources/css/app.css')
     </head>
-    <body>
+    <body class="bg-[#8096b2]">
         <div id="navbar">
             <navbar/>
         </div>
-        <div class="bg-red-500">
-            <div class="container mx-auto mt-16">
-                <h1 class="text-1xl font-light">Welcome to Testing</h1>
-                <p class="mt-4">This is the main content area.</p>
+        <div class="content-style">
+            <div>
+                <h1 class="main-header mb-10">Welcome to Testing</h1>
+                <p class="text-info">This is the main content area.</p>
+            </div>
+            <?php echo "PHP Echo...";?>
+        </div>
+        <div class="content-style">
+            <div>
+                <h1 class="main-header mb-10">Welcome to Testing</h1>
+                <p class="text-info">This is the main content area.</p>
+            </div>
+            <?php echo "PHP Echo...";?>
+        </div>
+        <div class="content-style">
+            <div>
+                <h1 class="main-header mb-10">Welcome to Testing</h1>
+                <p class="text-info">This is the main content area.</p>
+            </div>
+            <?php echo "PHP Echo...";?>
+        </div>
+        <div class="content-style">
+            <div>
+                <h1 class="main-header mb-10">Welcome to Testing</h1>
+                <p class="text-info">This is the main content area.</p>
+            </div>
+            <?php echo "PHP Echo...";?>
+        </div>
+        <div class="content-style">
+            <div>
+                <h1 class="main-header mb-10">Welcome to Testing</h1>
+                <p class="text-info">This is the main content area.</p>
+            </div>
+            <?php echo "PHP Echo...";?>
+        </div>
+        <div class="content-style">
+            <div>
+                <h1 class="main-header mb-10">Welcome to Testing</h1>
+                <p class="text-info">This is the main content area.</p>
+            </div>
+            <?php echo "PHP Echo...";?>
+        </div>
+        <div class="content-style">
+            <div>
+                <h1 class="main-header mb-10">Welcome to Testing</h1>
+                <p class="text-info">This is the main content area.</p>
             </div>
             <?php echo "PHP Echo...";?>
         </div>
