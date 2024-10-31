@@ -11,56 +11,39 @@
         <div id="navbar">
             <navbar/>
         </div>
-        <div class="content-style">
-            <div>
-                <h1 class="main-header mb-10">Welcome to Testing</h1>
-                <p class="text-info">This is the main content area.</p>
+        <div class="flex justify-center">
+            <div class="content-style">
+                <div class="col-span-1">
+                    <h1 class="main-header mb-10">Welcome to Testing</h1>
+                    <p class="text-info">This is the main content area.</p>
+                </div>
+                <div class="col-span-1">
+                    <h1 class="main-header mb-10">Welcome to Testing</h1>
+                    <p class="text-info">This is the main content area.</p>
+                </div>
+                <div class="col-span-1">
+                    <h1 class="main-header mb-10">Welcome to Testing</h1>
+                    <p class="text-info">This is the main content area.</p>
+                </div>
+                <div class="col-span-1">
+                    <h1 class="main-header mb-10">Welcome to Testing</h1>
+                    <p class="text-info">This is the main content area.</p>
+                </div>
+                <div class="col-span-1">
+                    <h1 class="main-header mb-10">Welcome to Testing</h1>
+                    <p class="text-info">This is the main content area.</p>
+                </div>
             </div>
-            <?php echo "PHP Echo...";?>
         </div>
-        <div class="content-style">
-            <div>
-                <h1 class="main-header mb-10">Welcome to Testing</h1>
-                <p class="text-info">This is the main content area.</p>
+        <div class="flex justify-center">
+            <div class="content-style">
+                <div class="upload-components">
+                    <input type="file" id="file" name="file">
+                    <button type="button">Upload</button>
+                </div>
             </div>
-            <?php echo "PHP Echo...";?>
         </div>
-        <div class="content-style">
-            <div>
-                <h1 class="main-header mb-5">Welcome to Testing</h1>
-                <p class="text-info">This is the main content area.</p>
-            </div>
-            <?php echo "PHP Echo...";?>
-        </div>
-        <div class="content-style">
-            <div>
-                <h1 class="main-header mb-10">Welcome to Testing</h1>
-                <p class="text-info">This is the main content area.</p>
-            </div>
-            <?php echo "PHP Echo...";?>
-        </div>
-        <div class="content-style">
-            <div>
-                <h1 class="main-header mb-10">Welcome to Testing</h1>
-                <p class="text-info">This is the main content area.</p>
-            </div>
-            <?php echo "PHP Echo...";?>
-        </div>
-        <div class="content-style">
-            <div>
-                <h1 class="main-header mb-10">Welcome to Testing</h1>
-                <p class="text-info">This is the main content area.</p>
-            </div>
-            <?php echo "PHP Echo...";?>
-        </div>
-        <div class="content-style">
-            <div>
-                <h1 class="main-header mb-10">Welcome to Testing</h1>
-                <p class="text-info">This is the main content area.</p>
-            </div>
-            <?php echo "PHP Echo...";?>
-        </div>
-        
+        <div class="spacer-bar"></div>
         <!-- Components -->
         @vite('resources/js/app.js')
     </body>

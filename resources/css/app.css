@@ -6,7 +6,7 @@
     @apply bg-[#245A95] p-4 w-full fixed top-0 left-0 z-50;
 }
 .content-style{
-    @apply p-5 w-full mx-auto mt-20;
+    @apply mt-20 grid sm:grid-cols-1 md:grid-cols-5 gap-4 max-w-3xl mx-auto;
 }
 .main-header{
     @apply text-2xl font-bold;
@@ -16,6 +16,12 @@
 }
 .link-style{
     @apply text-gray-200 hover:text-white px-3;
+}
+.spacer-bar{
+    @apply mt-20;
+}
+.upload-components{
+    @apply grid grid-cols-1 justify-items-center bg-slate-100 p-8;
 }
 /* 
     colors:

@@ -3,7 +3,7 @@
       <div class="container mx-auto flex justify-between items-center">
         <!-- Brand -->
         <a href="#" class="text-white text-md font-bold">
-          Site Builder
+          Audio Builder
         </a>
         <!-- Navigation Links -->
         <div>
@@ -12,7 +12,7 @@
           <a href="#" class="link-style">Contact</a>
         </div>
         <a href="#" class="text-white text-md font-bold">
-          African Ideas
+          Testing
         </a>
       </div>
     </nav>
