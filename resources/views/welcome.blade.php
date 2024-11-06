@@ -7,43 +7,39 @@
         <!-- Styles -->
         @vite('resources/css/app.css')
     </head>
-    <body>
+    <body class="bg-[#1E1B34]">
         <div id="navbar">
             <navbar/>
         </div>
-        <div class="flex justify-center">
+        <div class="flex justify-center p-5">
             <div class="content-style">
-                <div class="col-span-1">
-                    <h1 class="main-header mb-10">Welcome to Testing</h1>
-                    <p class="text-info">This is the main content area.</p>
+                <div class="col-span-1 p-2 border border-black-400 rounded-lg">
+                    <img src="https://th.bing.com/th/id/R.c86d641beb7fa0a6293b8d3f73652dd8?rik=sTbrA%2fuDvPzqZQ&riu=http%3a%2f%2fclipart-library.com%2fimages_k%2fsound-waves-transparent-background%2fsound-waves-transparent-background-4.png&ehk=nQp%2fY5DBJlCHeKZ4gxzbvudzPH3c489NN6HjooqyRgE%3d&risl=&pid=ImgRaw&r=0">
+                    <p class="text-info">Content info here</p>
                 </div>
-                <div class="col-span-1">
-                    <h1 class="main-header mb-10">Welcome to Testing</h1>
-                    <p class="text-info">This is the main content area.</p>
+                <div class="col-span-1 p-2 border border-black-400 rounded-lg">
+                    <img src="https://th.bing.com/th/id/R.c86d641beb7fa0a6293b8d3f73652dd8?rik=sTbrA%2fuDvPzqZQ&riu=http%3a%2f%2fclipart-library.com%2fimages_k%2fsound-waves-transparent-background%2fsound-waves-transparent-background-4.png&ehk=nQp%2fY5DBJlCHeKZ4gxzbvudzPH3c489NN6HjooqyRgE%3d&risl=&pid=ImgRaw&r=0">
+                    <p class="text-info">Content info here</p>
                 </div>
-                <div class="col-span-1">
-                    <h1 class="main-header mb-10">Welcome to Testing</h1>
-                    <p class="text-info">This is the main content area.</p>
+                <div class="col-span-1 p-2 border border-black-400 rounded-lg">
+                    <img src="https://th.bing.com/th/id/R.c86d641beb7fa0a6293b8d3f73652dd8?rik=sTbrA%2fuDvPzqZQ&riu=http%3a%2f%2fclipart-library.com%2fimages_k%2fsound-waves-transparent-background%2fsound-waves-transparent-background-4.png&ehk=nQp%2fY5DBJlCHeKZ4gxzbvudzPH3c489NN6HjooqyRgE%3d&risl=&pid=ImgRaw&r=0">
+                    <p class="text-info">Content info here</p>
                 </div>
-                <div class="col-span-1">
-                    <h1 class="main-header mb-10">Welcome to Testing</h1>
-                    <p class="text-info">This is the main content area.</p>
-                </div>
-                <div class="col-span-1">
-                    <h1 class="main-header mb-10">Welcome to Testing</h1>
-                    <p class="text-info">This is the main content area.</p>
+                <div class="col-span-1 p-2 border border-black-400 rounded-lg">
+                    <img src="https://th.bing.com/th/id/R.c86d641beb7fa0a6293b8d3f73652dd8?rik=sTbrA%2fuDvPzqZQ&riu=http%3a%2f%2fclipart-library.com%2fimages_k%2fsound-waves-transparent-background%2fsound-waves-transparent-background-4.png&ehk=nQp%2fY5DBJlCHeKZ4gxzbvudzPH3c489NN6HjooqyRgE%3d&risl=&pid=ImgRaw&r=0">
+                    <p class="text-info">Content info here</p>
                 </div>
             </div>
         </div>
-        <div class="flex justify-center">
+        <div class="flex justify-center p-5">
             <div class="content-style">
                 <div class="upload-components">
                     <input type="file" id="file" name="file">
-                    <button type="button">Upload</button>
+                    <!-- <button type="button" class="">Upload</button> -->
                 </div>
             </div>
         </div>
-        <div class="spacer-bar"></div>
+        <!-- <div class="spacer-bar"></div> -->
         <!-- Components -->
         @vite('resources/js/app.js')
     </body>

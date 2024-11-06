@@ -3,16 +3,17 @@
 @tailwind utilities;
 
 .navbar-style{
-    @apply bg-[#245A95] p-4 w-full fixed top-0 left-0 z-50;
+    @apply bg-[#232946] p-4 w-full fixed top-0 left-0 z-50;
 }
 .content-style{
-    @apply mt-20 grid sm:grid-cols-1 md:grid-cols-5 gap-4 max-w-3xl mx-auto;
+    @apply p-5 mt-20 max-w-3xl 
+            mx-auto flex justify-center items-center; 
 }
 .main-header{
     @apply text-2xl font-bold;
 }
 .text-info{
-    @apply text-2xl font-light;
+    @apply text-font_color font-light;
 }
 .link-style{
     @apply text-gray-200 hover:text-white px-3;
@@ -21,35 +22,26 @@
     @apply mt-20;
 }
 .upload-components{
-    @apply grid grid-cols-1 justify-items-center bg-slate-100 p-8;
+    @apply block bg-slate-100 p-5;
 }
 /* 
     colors:
-        .primary-colors
-        {
-            color: #245A95;
-            color: #DCE8F8;
-            color: #779fe2;
-            color: #a0beee;
-            color: #4074d5;
-            color: #e5ebf2;
-        }
-        .secondary-colors
-        {
-            color: #968151;
-            color: #394759;
-            color: #44536a;
-            color: #3f3f3f;
-            color: #8096b2;
-            color: #ffffff;
-        }
-        .tertiary-colors
-        {
-            color: #5494e0;
-            color: #5f6d94;
-            color: #949bc7;
-            color: #5c649a;
-            color: #b4b7c4;
-            color: #e5ebf2;
-        }
+        PRIMARY COLOR: #1E1B34
+        SECONDARY COLOR: #0D0D0D
+        FONT-COLOR: #E0E0FF
+        NAV BAR COLOR: #232946
+        ACCENT COLOR 1: #3B3C50
+        ACCENT COLOR 2: #42C8F4
+        
+    font-sizes:
+        text-xs – Extra small
+        text-sm – Small
+        text-base – Normal (base)
+        text-lg – Large
+        text-xl – Extra large
+        text-2xl – 2x large
+        text-3xl – 3x large
+        text-4xl – 4x large
+        text-5xl – 5x large
+        text-6xl – 6x large
 */
