@@ -88,3 +88,24 @@ php artisan serve
     "watch": "vite build --watch" /*<----add this line*/
 },
 ```
+
+# Custom Colors
+> in the tailwind.config.js file
+```
+theme: {
+    extend: {
+      colors: {
+        body_color: '#1E1B34',
+        secondary_color: '#0D0D0D',
+        font_color: '#E0E0FF',
+        navbar_color: '#232946',
+        accent1_color: '#3B3C50',
+        accent2_color: '#42C8F4',
+      },
+    },
+  },
+```
+> Now in any script
+```
+<h1 class="text-navbar_color">Navbar Color Here</h1>
+```
