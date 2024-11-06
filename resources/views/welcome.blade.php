@@ -7,25 +7,25 @@
         <!-- Styles -->
         @vite('resources/css/app.css')
     </head>
-    <body class="bg-[#1E1B34]">
+    <body class="bg-secondary_color">
         <div id="navbar">
             <navbar/>
         </div>
         <div class="flex justify-center p-5">
             <div class="content-style">
-                <div class="col-span-1 p-2 border border-black-400 rounded-lg">
+                <div class="col-span-1 p-2">
                     <img src="https://th.bing.com/th/id/R.c86d641beb7fa0a6293b8d3f73652dd8?rik=sTbrA%2fuDvPzqZQ&riu=http%3a%2f%2fclipart-library.com%2fimages_k%2fsound-waves-transparent-background%2fsound-waves-transparent-background-4.png&ehk=nQp%2fY5DBJlCHeKZ4gxzbvudzPH3c489NN6HjooqyRgE%3d&risl=&pid=ImgRaw&r=0">
                     <p class="text-info">Content info here</p>
                 </div>
-                <div class="col-span-1 p-2 border border-black-400 rounded-lg">
+                <div class="col-span-1 p-2">
                     <img src="https://th.bing.com/th/id/R.c86d641beb7fa0a6293b8d3f73652dd8?rik=sTbrA%2fuDvPzqZQ&riu=http%3a%2f%2fclipart-library.com%2fimages_k%2fsound-waves-transparent-background%2fsound-waves-transparent-background-4.png&ehk=nQp%2fY5DBJlCHeKZ4gxzbvudzPH3c489NN6HjooqyRgE%3d&risl=&pid=ImgRaw&r=0">
                     <p class="text-info">Content info here</p>
                 </div>
-                <div class="col-span-1 p-2 border border-black-400 rounded-lg">
+                <div class="col-span-1 p-2">
                     <img src="https://th.bing.com/th/id/R.c86d641beb7fa0a6293b8d3f73652dd8?rik=sTbrA%2fuDvPzqZQ&riu=http%3a%2f%2fclipart-library.com%2fimages_k%2fsound-waves-transparent-background%2fsound-waves-transparent-background-4.png&ehk=nQp%2fY5DBJlCHeKZ4gxzbvudzPH3c489NN6HjooqyRgE%3d&risl=&pid=ImgRaw&r=0">
                     <p class="text-info">Content info here</p>
                 </div>
-                <div class="col-span-1 p-2 border border-black-400 rounded-lg">
+                <div class="col-span-1 p-2">
                     <img src="https://th.bing.com/th/id/R.c86d641beb7fa0a6293b8d3f73652dd8?rik=sTbrA%2fuDvPzqZQ&riu=http%3a%2f%2fclipart-library.com%2fimages_k%2fsound-waves-transparent-background%2fsound-waves-transparent-background-4.png&ehk=nQp%2fY5DBJlCHeKZ4gxzbvudzPH3c489NN6HjooqyRgE%3d&risl=&pid=ImgRaw&r=0">
                     <p class="text-info">Content info here</p>
                 </div>
@@ -34,7 +34,7 @@
         <div class="flex justify-center p-5">
             <div class="content-style">
                 <div class="upload-components">
-                    <input type="file" id="file" name="file">
+                    <input type="file" id="file" name="file" class="file_input">
                     <!-- <button type="button" class="">Upload</button> -->
                 </div>
             </div>

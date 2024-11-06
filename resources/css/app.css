@@ -22,7 +22,10 @@
     @apply mt-20;
 }
 .upload-components{
-    @apply block bg-slate-100 p-5;
+    @apply block p-5;
+}
+.file_input{
+    @apply bg-accent2_color rounded;
 }
 /* 
     colors:
