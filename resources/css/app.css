@@ -30,6 +30,10 @@
 .navbar_text{
     @apply font-nunito text-font_color font-bold;
 }
+.tool-button{
+    @apply lg:w-36 sm:w-12 md:w-20 xl:w-52 p-2 font-nunito text-font_color text-sm bg-accent1_color rounded-2xl
+            hover:bg-violet-600 active:bg-violet-700 focus:outline-none;
+}
 /* 
     colors:
         PRIMARY COLOR: #1E1B34
