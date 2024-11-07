@@ -2,11 +2,16 @@ import './bootstrap';
 import '../css/app.css';
 import { createApp } from 'vue';
 
-import WelcomeComp from './components/Welcome.vue';
 import Navbar from './components/Navbar.vue';
 import Uploader from './components/FileUploadComponent.vue';
-createApp({
-    components:{
-        Navbar
-    }
-}).mount('#navbar');
+
+const navbar_app = createApp({
+    components: { Navbar }
+});
+
+const fileupload_app = createApp({
+    components: { Uploader }
+});
+
+navbar_app.mount('#navbar');
+fileupload_app.mount('#uploader');

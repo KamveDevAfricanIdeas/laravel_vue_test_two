@@ -1,11 +1,16 @@
 <template>
-    <div class="container mx-auto flex justify-between items-center">
-        <label>Add a file</label>
-        <button type="button">Upload</button>
+    <div class="flex justify-center p-5">
+        <div class="content-style">
+            <div class="upload-components">
+                <input type="file" id="file" name="file" class="file_input font-nunito">
+                <!-- <button type="button" class="">Upload</button> -->
+            </div>
+        </div>
     </div>
 </template>
 <script>
     export default{
+        name: 'Uploader',
         mounted(){
         console.log("upload component added.");
     }
