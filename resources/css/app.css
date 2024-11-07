@@ -13,10 +13,10 @@
     @apply text-2xl font-bold;
 }
 .text-info{
-    @apply text-font_color font-light;
+    @apply font-nunito text-font_color font-light;
 }
 .link-style{
-    @apply text-gray-200 hover:text-white px-3;
+    @apply font-nunito text-font_color hover:text-white px-3;
 }
 .spacer-bar{
     @apply mt-20;
@@ -25,7 +25,10 @@
     @apply block p-5;
 }
 .file_input{
-    @apply bg-accent2_color rounded;
+    @apply w-36 bg-accent2_color rounded-2xl;
+}
+.navbar_text{
+    @apply font-nunito text-font_color font-bold;
 }
 /* 
     colors:

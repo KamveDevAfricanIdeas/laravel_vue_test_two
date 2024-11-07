@@ -2,7 +2,7 @@
     <nav class="navbar-style">
       <div class="container mx-auto flex justify-between items-center">
         <!-- Brand -->
-        <a href="#" class="text-white text-md font-bold">
+        <a href="#" class="navbar_text">
           Audio
         </a>
         <!-- Navigation Links -->
@@ -11,7 +11,7 @@
           <a href="#" class="link-style">About</a>
           <a href="#" class="link-style">Contact</a>
         </div>
-        <a href="#" class="text-white text-md font-bold">
+        <a href="#" class="navbar_text">
           JUNGO
         </a>
       </div>

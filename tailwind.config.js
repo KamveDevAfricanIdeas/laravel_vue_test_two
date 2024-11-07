@@ -16,6 +16,10 @@ export default {
         accent1_color: '#3B3C50',
         accent2_color: '#42C8F4',
       },
+      fontFamily: {
+        sourGummy: ['"Sour Gummy"', 'sans-serif'],
+        nunito: ['Nunito', 'sans-serif'],
+      },
     },
   },
   plugins: [],

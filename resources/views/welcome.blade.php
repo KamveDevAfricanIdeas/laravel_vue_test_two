@@ -4,10 +4,12 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Laravel</title>
+        <link href="https://fonts.googleapis.com/css2?family=Sour+Gummy&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
         <!-- Styles -->
         @vite('resources/css/app.css')
     </head>
-    <body class="bg-secondary_color">
+    <body class="bg-gradient-to-r from-body_color to-secondary_color">
         <div id="navbar">
             <navbar/>
         </div>
@@ -34,7 +36,7 @@
         <div class="flex justify-center p-5">
             <div class="content-style">
                 <div class="upload-components">
-                    <input type="file" id="file" name="file" class="file_input">
+                    <input type="file" id="file" name="file" class="file_input font-nunito">
                     <!-- <button type="button" class="">Upload</button> -->
                 </div>
             </div>
