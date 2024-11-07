@@ -10,10 +10,10 @@
             mx-auto flex justify-center items-center; 
 }
 .main-header{
-    @apply font-nunito text-font_color text-3xl font-light;
+    @apply font-sourGummy text-font_color text-3xl font-light;
 }
 .text-info{
-    @apply font-nunito text-font_color font-light;
+    @apply font-nunito text-font_color text-sm font-light;
 }
 .link-style{
     @apply font-nunito text-font_color hover:text-white px-3;
