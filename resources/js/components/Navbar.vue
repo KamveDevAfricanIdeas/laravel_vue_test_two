@@ -7,7 +7,7 @@
         </a>
         <!-- Navigation Links -->
         <div>
-          <a href="#" class="link-style">Home</a>
+          <a href="#" class="link-style">Discover</a>
           <a href="#" class="link-style">About</a>
           <a href="#" class="link-style">Contact</a>
         </div>

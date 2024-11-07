@@ -6,11 +6,11 @@
     @apply bg-[#232946] p-4 w-full fixed top-0 left-0 z-50;
 }
 .content-style{
-    @apply p-5 mt-20 max-w-3xl 
+    @apply p-5 max-w-3xl 
             mx-auto flex justify-center items-center; 
 }
 .main-header{
-    @apply text-2xl font-bold;
+    @apply font-nunito text-font_color text-3xl font-light;
 }
 .text-info{
     @apply font-nunito text-font_color font-light;
@@ -25,7 +25,7 @@
     @apply block p-5;
 }
 .file_input{
-    @apply w-36 bg-accent2_color rounded-2xl;
+    @apply w-64 bg-accent2_color rounded-2xl;
 }
 .navbar_text{
     @apply font-nunito text-font_color font-bold;
