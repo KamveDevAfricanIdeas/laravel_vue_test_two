@@ -2,18 +2,18 @@
     <nav class="navbar-style">
       <div class="container mx-auto flex justify-between items-center">
         <!-- Brand -->
-        <a href="#" class="navbar_text">
+        <p class="navbar_text">
           Audio
-        </a>
+        </p>
         <!-- Navigation Links -->
         <div>
           <a href="#" class="link-style">Discover</a>
           <a href="#" class="link-style">About</a>
           <a href="#" class="link-style">Contact</a>
         </div>
-        <a href="#" class="navbar_text">
-          JUNGO
-        </a>
+        <p class="navbar_text">
+          NOTHING Inc.
+        </p>
       </div>
     </nav>
   </template>

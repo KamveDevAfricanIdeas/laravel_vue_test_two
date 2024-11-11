@@ -10,7 +10,7 @@
             mx-auto flex justify-center items-center; 
 }
 .main-header{
-    @apply font-sourGummy text-font_color text-3xl font-light;
+    @apply font-nunito text-font_color text-3xl font-light;
 }
 .text-info{
     @apply font-nunito text-font_color text-sm font-light;
@@ -28,10 +28,10 @@
     @apply w-64 bg-accent2_color rounded-2xl;
 }
 .navbar_text{
-    @apply font-nunito text-font_color font-bold;
+    @apply w-36 font-nunito text-font_color font-bold;
 }
 .tool-button{
-    @apply lg:w-36 sm:w-12 md:w-20 xl:w-52 p-2 font-nunito text-font_color text-sm bg-accent1_color rounded-2xl
+    @apply w-auto p-2 font-nunito text-font_color text-sm bg-accent1_color rounded-md hover:rounded-xl
             hover:bg-violet-600 active:bg-violet-700 focus:outline-none;
 }
 /* 
