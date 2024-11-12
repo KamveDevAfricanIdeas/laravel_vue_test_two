@@ -1,3 +1,4 @@
+<!-- THIS IS THE PARENT COMPONENT -->
 <template>
     <div class="content-style gap-10">
         <audio-component v-for="(button, index) in button" :key="index" :btnLabel="button.name" 
@@ -11,7 +12,7 @@ export default {
     components: {
         AudioComponent
     },
-    data() 
+    data() /* database table name: `options` columns: `option_name`, `option_image_src` */
     {
         return {
             button:[ 

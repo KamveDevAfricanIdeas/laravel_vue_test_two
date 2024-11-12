@@ -1,6 +1,6 @@
 <template>
     <div class="flex flex-col justify-center items-center">
-        <img class="mb-5 w-20 h-20" :src="btnImageSrc" alt="button image">
+        <img class="mb-5 w-14 h-14" :src="btnImageSrc" alt="button image">
         <button type="button" class="tool-button" name="default-tool">{{btnLabel}}</button>
     </div>
 </template>
